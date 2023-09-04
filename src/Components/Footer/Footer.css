@@ -1,0 +1,103 @@
+.Footer{
+    background-color: #000912;
+}
+
+
+
+
+.footer{
+    width: 100%;
+    display: flex;
+    gap: 16px;
+    padding-bottom: 3%;
+    border-bottom: medium dashed #fff;
+}
+
+.txt-footer{
+    flex-grow: 2;
+    width: 20%;
+}
+
+.txt-footer h3{
+    color: #777;
+    font-weight: 600;
+    padding-top: 2.5%;
+}
+
+.txt-footer h4{
+    color: #777;
+    padding-top: 15%;
+    font-weight: 600;
+}
+
+.support{
+    flex-grow: 1;
+}
+
+.support h3{
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.support h4{
+    color: #777;
+    font-weight: 600;
+    padding-bottom: 2%;
+}
+
+.company{
+    flex-grow: 1;
+}
+.company h3{
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.company h4{
+    color: #777;
+    font-weight: 600;
+    padding-bottom: 2%;
+}
+
+.resources{
+    flex-grow: 1;
+}
+.resources h3{
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.resources h4{
+    color: #777;
+    font-weight: 600;
+    padding-bottom: 2%;
+}
+
+.btn-footer{
+    text-align: center;
+    margin-top: 5%;
+    padding: 1%;
+    background-color: #ff8241;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    width: 60%;
+    height: 15%px;
+    margin-bottom: 2%;
+}
+
+.btn-footer h2{
+    font-size: 19px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.btn-footer h4{
+    color: #000912;
+}
+
+.icon-footer{
+    background-color: #ff8241;
+}

@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Proyecto-final-React-Github/build/static/css/main.d4695cee.css",
+    "main.js": "/Proyecto-final-React-Github/build/static/js/main.d9d0f23e.js",
+    "index.html": "/Proyecto-final-React-Github/build/index.html",
+    "main.d4695cee.css.map": "/Proyecto-final-React-Github/build/static/css/main.d4695cee.css.map",
+    "main.d9d0f23e.js.map": "/Proyecto-final-React-Github/build/static/js/main.d9d0f23e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d4695cee.css",
+    "static/js/main.d9d0f23e.js"
+  ]
+}
