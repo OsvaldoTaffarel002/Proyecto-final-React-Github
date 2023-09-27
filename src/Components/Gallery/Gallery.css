@@ -1,0 +1,122 @@
+.gallery{
+    background-color: #000912;
+    width: 100%;
+    height: 100%;
+}
+
+.txt-main{
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+.txt-main h2{
+    font-weight: 700;
+    font-size: 40px;
+    padding-top: 5%;
+    padding-bottom: 2.5%;
+}
+
+.txt-main p{
+    padding-bottom: 5%;
+    padding-left: 30%;
+    padding-right: 30%;
+    color: #777;
+}
+
+.bodyimg-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.bodyimg-container img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.img-container-gallery{
+    width: 30%;
+    padding-left: 10%;
+    padding-bottom: 5%;
+}
+
+.bodyimg-container h3{
+    font-size: 25px;
+    padding-top: 5%;
+}
+
+.bodyimg-container p{
+    margin: 5%;
+    color: #777;
+}
+
+.txt-orange-container{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.txt-orange{
+    padding: 4%;
+}
+
+.txt-orange h3{
+    color: #ff8242;
+    font-size: 50px;
+}
+
+.txt-orange p{
+    padding-top: 10%;
+    color: #777;
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+/* Estilos para tabletas */
+/* Aquí van los estilos que deseas aplicar para tabletas */
+.img-container-gallery{
+    width: 45%;
+}
+.img-container{
+    width: 45%;
+    padding-right: 2.5%;
+    padding-left: 2.5%;
+    padding-bottom: 5%;
+}
+.txt-orange-container{
+    flex-wrap: wrap;
+}
+}
+    
+@media (max-width: 768px) {
+/* Estilos para mobile */
+/* Aquí van los estilos que deseas aplicar para mobile */
+.bodyimg-container{
+    display: block;
+}
+.img-container-gallery{
+    width: 90%;
+}
+.img-container{
+    width: 100%;
+    padding-right: 2.5%;
+    padding-left: 2.5%;
+    padding-bottom: 5%;
+}
+.bodyimg-container img{
+    width: 75%;
+    border-radius: 15px;
+}
+}

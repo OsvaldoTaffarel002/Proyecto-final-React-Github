@@ -1,36 +1,35 @@
 import React from 'react';
-import './Profesionales.css'
+import './Profesionales.css';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
+import {faChevronRight} from '@fortawesome/free-solid-svg-icons'
 
 const Profesionales = () => {
     return(
-        <div className='profesionales'>
-            <div className='card-left'>
-                <div className='card-left-content'>
-                    <div><img src="https://dummyimage.com/300x150/ffffff/000000" alt="" /></div>
-                    <div>
-                        <h3>Create Simple <br/> Digital Management</h3>
-                    </div>
-                    <div>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus corporis quasi facere ullam eligendi reprehenderit, voluptas hic nesciunt voluptatum sapiente explicabo maxime</p>
-                    </div>
-                    <button>See more product</button>
+        <section className="profesionales">
+        <div className="profesionales-card-left">
+            <div class="comments-txt">
+                <img src="https://dummyimage.com/300x200/000/fff" alt=""/>
+                <div className="comments-txt-btns">
+                    <button className="comments-txt-btns-top">Yes, you can order that's</button>
+                    <button className="comments-txt-btns-bottom">Yes, you can order digital agency</button>
                 </div>
             </div>
-            <div className='card-right'>
-                <div className='card-right-content'>
-                    <div className="img-container">
-                        <img src="https://dummyimage.com/150x150/ffffff/000000" alt="" class="img-a"/>
-                        <img src="https://dummyimage.com/150x150/ffffff/000000" alt="" class="img-b"/>
-                        <img src="https://dummyimage.com/150x150/ffffff/000000" alt="" class="img-c"/>
-                    </div>
-                    <div>
-                        <h3>Effectiveness Make <br/>Branding Company</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque quas ipsum delectus earum quod sed nisi voluptas quia labore aliquid id quaerat maiores officia, veniam explicabo fugiat</p>
-                    </div>
-                    <button>See more product</button>
-                </div>
-            </div>
+            <h3>Create Simple <br/>Digital Management</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nesciunt blanditiis porro, repellendus totam ea, accusantium tenetur beatae quibusdam asperiores voluptate unde sapiente cum esse quia.
+            </p>
+            <button className="profesionales-card-left-btn">See More Product<FontAwesomeIcon icon={faChevronRight} style={{marginLeft:"10px",}}/></button>
         </div>
+        <div className="profesionales-card-right">
+            <div className="profesionales-card-right-images">
+                <img src="https://dummyimage.com/200x200/fff/000" alt=""/>
+                <img className="img-center-profesionales" src="https://dummyimage.com/200x200/fff/000" alt=""/>
+                <img src="https://dummyimage.com/200x200/fff/000" alt=""/>
+            </div>
+            <h3>Effectiveness Make <br/>Branding Company</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim ea quia omnis veritatis eligendi necessitatibus eum facilis sapiente magni, atque possimus recusandae voluptate quae minima eaque vitae quos et.</p>
+            <button className="profesionales-card-right-btn">See More Product<FontAwesomeIcon icon={faChevronRight} style={{marginLeft:"10px",}}/></button>
+        </div>
+    </section>
     )
 }
 

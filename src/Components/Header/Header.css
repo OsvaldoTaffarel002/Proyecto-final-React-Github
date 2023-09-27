@@ -1,75 +1,54 @@
-.Header{
+.bg-body-tertiary{
+    padding: 0;
+    width: 100%;
     position: sticky;
-    top: 0px;
+    top: 0;
+    font-size: 20px;
+    z-index: 1;
 }
-.navbar{
-    display: flex;
-    padding: 1%;
-    padding-left: 10%;
+.me-auto{
+    width: 100%;
+}
+.container-header{
+    height: 70px;
+    width: 100%;
     background-color: #000912;
 }
-
-.login-btn{
-    margin-left: auto;
+.header-navbar-left{
+    width: 75%;
+    color: #fff;
+    display: flex;
 }
-
-
-.register-btn{
-    padding-right: 10%;
+.header-navbar-right{
+    width: 25%;
+    display: flex;
 }
-
-a{
-    color: #ffffff;
-    padding: 10px;
-    text-decoration: none;
+.navlink-header{
+    color: #fff;
 }
-
-a:hover{
-    transition: 0.4s;
+.navlink-header:hover{
+    color: #ff8241;
+}
+#basic-nav-dropdown{
+    color: #fff;
+}
+#basic-nav-dropdown:hover{
     color: #ff8241;
 }
 
-.menu-desplegable {
-    color: white;
-}
-
-.boton-desplegable {
-    display: flex;
-    padding: 10px;
-    font-size: medium;
-    background: none;
-    border: none;
-    color: #ffffff;
-    cursor: pointer;
-}
-
-.boton-desplegable:hover{
-    color: #ff8241;
-    transition: 0.4s;
-}
-
-.contenido-desplegable {
-    display: none;
-    position: absolute;
-    background-color: #000912;
-    border: 1px solid #555;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-}
-
-.menu-desplegable:hover .contenido-desplegable {
-    display: block;
-}
-
-.contenido-desplegable a {
-    display: block;
-    padding: 10px;
-    color: white;
-    text-decoration: none;
-}
-
-.contenido-desplegable a:hover {
-    border-radius: 10px;
-    background-color: #6429b5;
-}
-
+@media (max-width: 990px) {
+    /* Estilos para tabletas */
+    /* Aquí van los estilos que deseas aplicar para tabletas */
+    .header-navbar-left{
+        text-align: center;
+        width: 100%;
+        display: block;
+        background-color: #000912;
+    }
+    .header-navbar-right{
+        text-align: center;
+        width: 100%;
+        display: block;
+        background-color: #000912;
+    }
+    }

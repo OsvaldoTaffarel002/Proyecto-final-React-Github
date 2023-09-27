@@ -1,114 +1,134 @@
 .welcome{
     border-top: medium dashed #fff;
-    border-width: 3px;
-    padding-top: 5%;
     background-color: #000912;
-    display: flex;
-    padding-left: 10%;
-    padding-right: 13%;
-    gap: 5%;
-}
-
-
-.img-container{
-    display: flex;
-    flex-wrap: wrap;
-    margin-right: 10%;
-}
-
-.welcome-left p{
-    color: #777;
-    text-align: justify;
-    width: 75%;
-}
-
-.welcome-left img{
-    margin: 1%;
-    border-radius: 10px;
-}
-
-
-
-
-
-
-.welcome-right{
     width: 100%;
+    display: flex;
+    padding-top: 5%;
 }
 
-.welcome-right h2{
-    font-weight: 800;
-    font-size: 65px;
+.welcome-left{
+    padding-left: 10%;
+}
+.welcome-left img{
+    padding: 0.5%;
+    border-radius: 15px;
+    width: 45%;
 }
 
-.welcome-right p{
-    color: #777;
-    font-weight: 600;
+.text-container-welcome-left{
     padding-top: 5%;
     padding-bottom: 5%;
 }
-
-.welcome-right ul{
-    list-style: none;
-}
-
-.welcome-right li{
+.text-container-welcome-left p{
     color: #777;
-    font-weight: 700;
-    font-size: 20px;
-    padding: 1%;
+    line-height: 30px;
+    padding-right: 5%;
 }
 
+.welcome-right{
+    padding-left: 5%;
+    padding-right: 10%;
+}
 .welcome-right button{
-    margin-top: 5%;
-    padding: 1%;
+    width: 50%;
+    background-color: #140e32;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    font-size: 17.5px;
+    font-weight: 500;
+}
+.welcome-right h3{
+    padding-top: 5%;
+    padding-bottom: 10%;
+    font-size: 60px;
+}
+.welcome-right p{
+    color: #777;
+    line-height: 25px;
+    width: 85%;
+    padding-bottom: 5%;
+}
+.welcome-right li{
+    list-style: none;
+    padding-top: 4%;
+    color: #777;
 }
 
-.btn-left{
+
+
+.welcome-right-btn-container{
+    display: flex;
+    padding-top: 10%;
+}
+.btn-welcome-2{
+    margin-left: 2.5%;
+}
+.welcome-right-btn-container button{
+    width: 35%;
+    height: 55px;
+    border-radius: 10px;
+    background-color: #000912;
+    border: 1px solid #fff;
+}
+.welcome-right-btn-container button:hover{
     background-color: #6429b5;
-    border: 0.5px solid #6429b5;
-    border-radius: 5px;
-    width: 200px;
-    height: 50px;
-    margin-left: 10%;
-    margin-bottom: 10%;
-}
-
-.btn-left:hover{
-    background-color: #ff8241;
-    border: 0.5px solid #ff8241;
-    color: #000912;
-    transition: 0.3s;
+    transition: 0.4s;
+    border: none;
     cursor: pointer;
 }
 
-.btn-left:active{
-    background-color: #000912;
-    color: #ffffff;
-    transition: 0.3s; 
-    cursor: default;
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+/* Estilos para tabletas */
+/* Aquí van los estilos que deseas aplicar para tabletas */
+.welcome{
+    display: block;
+    text-align: center;
+}
+.welcome-left{
+    padding-left: 0%;
+}
+.welcome-right{
+    padding-left: 0%;
+    padding-right: 0%;
+}
+.welcome-right p{
+    padding-left: 7.5%;
+}
+.welcome-right-btn-container{
+    padding-left: 22.5%;
+    padding-bottom: 5%;
+}
 }
 
-.btn-right{
-    background: none;
-    border: 0.5px solid #ffffff;
-    border-radius: 5px;
-    width: 200px;
-    height: 50px;
-    margin-left: 10%;
-    margin-bottom: 10%;
+            
+@media (max-width: 768px) {
+/* Estilos para mobile */
+/* Aquí van los estilos que deseas aplicar para mobile */
+.welcome{
+    display: block;
+    text-align: center;
 }
 
-.btn-right:hover{
-    background-color: #ffffff;
-    color: #000912;
-    transition: 0.3s;
-    cursor: pointer;
+.img-container-welcome-left{
+    padding-left: 12.5%;
+}
+.welcome-left img{
+    width: 75%;
+    display: block;
 }
 
-.btn-right:active{
-    background-color: #000912;
-    color: #ffffff;
-    transition: 0.3s; 
-    cursor: default;
+.welcome-right{
+    padding-left: 0%;
+    padding-right: 0%;
+}
+.welcome-right p{
+    padding-left: 7.5%;
+}
+.welcome-right-btn-container{
+    padding-left: 22.5%;
+    padding-bottom: 5%;
+}
 }

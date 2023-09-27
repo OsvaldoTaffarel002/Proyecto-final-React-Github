@@ -1,0 +1,180 @@
+.cards{
+    background-color: #000912;
+    width: 100%;
+    height: 100%;
+}
+
+.cards-title{
+    text-align: center;
+    padding: 2%;
+}
+
+.cards-title h2{
+    font-size: 35px;
+    padding: 3%;
+}
+.cards-title p{
+    color: #777;
+    padding-left: 25%;
+    padding-right: 25%;
+    line-height: 27.5px;
+    padding-bottom: 2%;
+}
+
+.cards-container{
+    display: flex;
+    height: 100%;
+}
+
+.card-left{
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 1.25%;
+    padding-left: 10%;
+}
+.img-card-left img{
+    height: 400px;
+    width: 250px;
+    border-radius: 10px;
+}
+.card-left-txt{
+    width: 50%;
+    padding-top: 7.5%;
+    padding-left: 5%;
+}
+.card-left-txt h3{
+    color: #ff8142;
+    font-size: 25px;
+    padding-bottom: 5%;
+}
+.card-left-txt p{
+    color: #777;
+    padding-bottom: 15%;
+    line-height: 27.5px;
+}
+.card-left-txt h4{
+    padding-top: 15%;
+    font-size: 15px;
+}
+.card-left-txt h5{
+    font-size: 15px;
+    font-weight: 500;
+    color: #777;
+}
+
+.card-right{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 1.25%;
+    padding-right: 10%;
+}
+.img-card-right img{
+    height: 400px;
+    width: 250px;
+    border-radius: 10px;
+}
+.card-right-txt{
+    width: 50%;
+    padding-top: 7.5%;
+    padding-left: 5%;
+}
+.card-right-txt h3{
+    color: #ff8142;
+    font-size: 25px;
+    padding-bottom: 5%;
+}
+.card-right-txt p{
+    color: #777;
+    padding-bottom: 15%;
+    line-height: 27.5px;
+}
+.card-right-txt h4{
+    padding-top: 15%;
+    font-size: 15px;
+}
+.card-right-txt h5{
+    font-size: 15px;
+    font-weight: 500;
+    color: #777;
+}
+
+.cards-btn-cards{
+    text-align: center;
+    padding: 5%;
+}
+.cards-btn-cards button{
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    background-color: #000912;
+    font-size: 12.5px;
+    font-weight: 700;
+}
+.cards-btn-cards button:hover{
+    background-color: #fff;
+    color: #000912;
+    border: 1px solid #000;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.cards-btn-cards button:active{
+    background-color: #000;
+    color: #fff;
+    cursor: default;
+}
+
+
+
+
+
+
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+/* Estilos para tabletas */
+/* Aquí van los estilos que deseas aplicar para tabletas */
+.cards-container{
+    text-align: center;
+}
+.card-left{
+    display: block;
+}
+.card-left-txt{
+    padding-left: 25%;
+}
+.card-left-txt h4{
+    padding-top: 0;
+    font-size: 15px;
+}
+
+.card-right{
+    display: block;
+}
+.card-right-txt{
+    padding-left: 25%;
+}
+.card-right-txt h4{
+    padding-top: 0;
+    font-size: 15px;
+}
+.cards-btn-cards{
+    text-align: center;
+    padding: 5%;
+    bottom: 0;
+}
+}
+                
+@media (max-width: 768px) {
+/* Estilos para mobile */
+/* Aquí van los estilos que deseas aplicar para mobile */
+.cards-container{
+    display: block;
+    height: 100%;
+}
+.card-right{
+    padding-top: 10%;
+    padding-left: 10%;
+    flex-wrap: nowrap;
+}
+}

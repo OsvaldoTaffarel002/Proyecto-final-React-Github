@@ -1,142 +1,200 @@
 .profesionales{
-    width: 100%;
-    padding-top: 5%;
-    display: flex;
-    gap: 5%;
-  
     background-color: #000912;
-}
-
-.card-left{
     width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.profesionales-card-left{
+    width: 80%;
     margin-left: 10%;
-}
-
-.card-left-content{
-width: 100%;
-height: 100%;
-background-color: #140e32;
-border-radius: 10px;
-}
-
-.card-left-content img{
-    width: 50%;
-border-radius: 10px;
-margin-top: 10%;
-margin-left: 10%;
-}
-
-.card-left-content h3{
-font-size: 50px;
-margin-left: 10%;
-margin-top: 2%;
-margin-bottom: 2%;
-}
-
-.card-left-content p{
-line-height: 2.0;
-color: #999;
-margin-left: 10%;
-margin-right: 5%;
-margin-top: 5%;
-margin-bottom: 15%;
-}
-
-.card-left-content button{
-background: none;
-border: 0.5px solid #ffffff;
-border-radius: 5px;
-width: 200px;
-height: 50px;
-margin-left: 10%;
-margin-bottom: 5%;
-}
-
-.card-left-content button:hover{
-background-color: #ffffff;
-color: #000912;
-transition: 0.3s;
-cursor: pointer;
-}
-
-.card-left-content button:active{
-background-color: #000912;
-color: #ffffff;
-transition: 0.3s; 
-cursor: default;
-}
-
-
-
-
-
-
-.card-right{
-width: 100%;
-margin-right: 10%;
-}
-
-.card-right-content{
-width: 100%;
-height: 100%;
-background-color: #140e32;
-border-radius: 10px;
-}
-
-.card-right-content img{
-    width: 25%;
-    padding: 4.1%;
-    margin: auto;
-    border-radius: 10px;
+    margin-right: 1%;
     margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: #140e32;
+    border-radius: 10px;
+}
+.comments-txt{
+    display: flex;
+}
+.comments-txt img{
+    margin-left: 5%;
+    margin-top: 5%;
+    border-radius: 10px;
+}
+.comments-txt-btns{
+    padding-top: 12.5%;
+}
+.comments-txt-btns button{
+    background-color: #fff;
+    color: #777;
+    border-radius: 25px;
+    border-bottom-left-radius: 0;
+}
+.comments-txt-btns-top{
+    width: 60%;
+    height: 50px;
+    font-size: 15px;
+    border: none;
+    margin-bottom: 5%;
+}
+.comments-txt-btns-bottom{
+    width: 100%;
+    height: 50px;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    font-size: 15px;
+    border: none;
+}
+.profesionales-card-left h3{
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: 35px
+}
+.profesionales-card-left p{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 10%;
+    color: #777;
+    line-height: 25px;
+}
+.profesionales-card-left-btn{
+    margin-left: 5%;
+    margin-bottom: 7.5%;
+    width: 35%;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    background-color: #140e32;
+}
+.profesionales-card-left-btn:hover{
+    background-color: #fff;
+    color: #140e32;
+    transition: 0.4s;
+    cursor: pointer;
 }
 
-.card-right-content h3{
-font-size: 50px;
-margin-left: 50px;
-margin-top: 20px;
-margin-bottom: 10px;
+
+
+
+.profesionales-card-right{
+    width: 80%;
+    margin-left: 1%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: #140e32;
+    border-radius: 10px;
 }
 
-.card-right-content p{
-line-height: 2.0;
-color: #999;
-margin-left: 50px;
-margin-right: 50px;
-margin-top: 15px;
-margin-bottom: 40px;
+.profesionales-card-right-images{
+    padding: 5%;
+}
+.profesionales-card-right-images img{
+    margin-left: 1%;
+    border-radius: 10px;
+    width: 32%;
+    height: 200px;
+}
+.profesionales-card-right h3{
+    padding-left: 5%;
+    padding-bottom: 5%;
+    font-size: 35px
+}
+.profesionales-card-right p{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 10%;
+    color: #777;
+    line-height: 25px;
+}
+.profesionales-card-right-btn{
+    margin-left: 5%;
+    margin-bottom: 7.5%;
+    width: 35%;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    background-color: #140e32;
+}
+.profesionales-card-right-btn:hover{
+    background-color: #fff;
+    color: #140e32;
+    transition: 0.4s;
+    cursor: pointer;
 }
 
-.card-right-content button{
-background: none;
-border: 0.5px solid #ffffff;
-border-radius: 5px;
-width: 200px;
-height: 50px;
-margin-left: 10%;
-margin-bottom: 5%;
-}
 
-.card-right-content button:hover{
-background-color: #ffffff;
-color: #000912;
-transition: 0.3s;
-cursor: pointer;
-}
-
-.card-right-content button:active{
-background-color: #000912;
-color: #ffffff;
-transition: 0.3s; 
-cursor: default;
-}
 
 @media (min-width: 769px) and (max-width: 1024px) {
 /* Estilos para tabletas */
 /* Aquí van los estilos que deseas aplicar para tabletas */
+.profesionales-card-left{
+    text-align: center;
 }
-
+.comments-txt{
+    display: block;
+}
+.comments-txt img{
+    margin-left: 0;
+}
+.comments-txt-btns{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.profesionales-card-left-btn{
+    margin-left: 0;
+}
+.profesionales-card-right{
+    margin-left: 0;
+    padding-top: 12.5%;
+    text-align: center;
+}
+.profesionales-card-right-images img{
+    width: 32%;
+    height: 150px;
+}
+.profesionales-card-right h3{
+    padding-left: 0;
+    padding-bottom: 5%;
+    font-size: 35px
+}
+.profesionales-card-right-btn{
+    margin-left: 0%;
+}
+}
+            
 @media (max-width: 768px) {
 /* Estilos para mobile */
 /* Aquí van los estilos que deseas aplicar para mobile */
+.profesionales{
+    display: block;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+}
+.comments-txt{
+    display: block;
+}
+.comments-txt img{
+    margin-left: 0;
+}
+.comments-txt-btns{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.profesionales-card-left{
+    padding-left: 0;
+}
+.profesionales-card-left-btn{
+    margin-left: 0;
+}
+.profesionales-card-right{
+    padding-left: 0;
+    margin-left: 10%;
+}
+.profesionales-card-right-btn{
+    margin-left: 0;
+}
 }
