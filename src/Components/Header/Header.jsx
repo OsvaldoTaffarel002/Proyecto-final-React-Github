@@ -9,7 +9,7 @@ import { faUser, faCircleUser} from '@fortawesome/free-regular-svg-icons'
 
 function Header() {
   return (
-    <Navbar bg="dark" data-bs-theme="dark" expand="lg" className="bg-body-tertiary">
+    <Navbar bg="dark" expand="lg" className="bg-body-tertiary">
       <Container className='container-header'>
         <Navbar.Toggle style={{color:"#ff8241", backgroundColor:"#fff"}} aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
