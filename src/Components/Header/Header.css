@@ -1,8 +1,9 @@
-.bg-body-tertiary{
+body{
+    background-color: #000912;
+}
+.bg-transparent{
     padding: 0;
     width: 100%;
-    position: sticky;
-    top: 0;
     font-size: 20px;
     z-index: 1;
 }
