@@ -173,6 +173,7 @@
     height: 100%;
 }
 .card-right{
+    display: block;
     padding-top: 10%;
     padding-left: 10%;
     flex-wrap: nowrap;
